@@ -1,0 +1,38 @@
+/* Медиа-запросы */
+
+@media (min-width: 320px) {
+	.wrap {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 481px) {
+	.wrap {
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 641px) {
+	.wrap {
+		font-size: 45px;
+	}
+}
+
+@media (min-width: 961px) {
+	.wrap {
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.wrap {
+		font-size: 75px;
+	}
+}
+
+@media (min-width: 1281px) {
+	.wrap {
+		font-size: 90px;
+	}
+}
+
