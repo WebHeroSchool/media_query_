@@ -1,0 +1,40 @@
+/* Бургер-кнопка */
+
+.menu__link {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 6px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 769px) {
+  .menu {
+    visibility: hidden;
+  }
+  
+  .wrap__icon:nth-child(1),
+  .wrap__icon:nth-child(2),
+  .wrap__icon:nth-child(3) {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    background-color: red;
+  }
+  
+  .wrap__icon:nth-child(1) {
+    top: 22px;
+  }
+  
+  .wrap__icon:nth-child(3) {
+    top: 30px;
+  }
+  
+  .wrap__icon:nth-child(2) {
+    top: 38px;
+  }
+}
